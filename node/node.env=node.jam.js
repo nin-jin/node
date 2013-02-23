@@ -1,1 +1,1 @@
-this.$node= $jin_autoloader()
+this.$node= require('pms').$node || $jin_autoloader()
